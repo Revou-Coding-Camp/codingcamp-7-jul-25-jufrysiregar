@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo Jufry</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="center-bg">
+        <div class="todo-card">
+            <h1 class="todo-title">Todo List</h1>
+            <div class="todo-inputs">
+                <input class="todo-text" type="text" placeholder="Add a todo . . ." />
+                <input class="todo-date" type="date" placeholder="mm/dd/yyyy" />
+                <button class="todo-add">+</button>
+            </div>
+            <div class="todo-actions">
+                <button class="todo-filter">FILTER</button>
+                <button class="todo-deleteall">DELETE ALL</button>
+            </div>
+            <div class="todo-table-wrapper">
+                <table class="todo-table">
+                    <thead>
+                        <tr>
+                            <th>TASK</th>
+                            <th>DUE DATE</th>
+                            <th>STATUS</th>
+                            <th>ACTIONS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="4" class="todo-notask">No task found</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
