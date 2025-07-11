@@ -7,4 +7,4 @@ coding ini menggunakan :
 3. menggunakan Tailwind CSS
 
 Project Berjalan dari Senin, 7-7-2025 Hingga Batas Pengumpulan di Sabtu 12-7-2025.
-createdby : M. Juffri Siregar (Jufry S)
+created_by : M. Juffri Siregar (Jufry S)
